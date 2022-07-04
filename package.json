@@ -7,7 +7,7 @@
   "description": "Simple Greeting App",
   "main": "node app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Akhila",
   "license": "ISC",
