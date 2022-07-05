@@ -11,7 +11,7 @@ const previewroute=require('./src/routes/previewroute');
 const greetingroute= require('./src/routes/greetingroute');
 
 app.use(express.urlencoded({extended:true}));
-//app.use('/public', express.static('public'));
+app.use('/public', express.static('public'));
 app.use("/preview", previewroute);
 app.use("/greeting",greetingroute);
 
